@@ -1,0 +1,21 @@
+body {
+  background-color: gray;
+}
+
+header {
+  color: blue;
+  text-align: center;
+}
+
+img {
+  width: 20px;
+  padding: 10px;
+}
+
+main {
+  border: solid black;
+}
+
+.nextpage {
+  width: 500px;
+}
