@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  text-align: center;
+}
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+h2 {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+
+img {
+  position: relative;
+  bottom: 40px;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+header {
+  height: 100px;
+  background: navy;
+  width: 100%;
+  z-index: 12;
+  position: fixed;
+}
+.draft {
+  position: relative;
+  top: 400px;
+}
+
+nav {
+  right: 10px;
+  position: fixed;
+  line-height: 100px;
+}
+p {
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+nav a {
+  text-decoration: none;
+  letter-spacing: 4px;
+  font-size: 20px;
+  margin: 0 10px;
+  color: #fff;
+}
+.line {
+  position: relative;
+  top: 10px;
+  width: 200px;
+  height: 200px;
+}
+.draftP {
+  position: relative;
+  top: 300px;
+}
+.draft {
+  position: absolute;
+  float: right;
+  width: 500px;
+  height: 500px;
+}
+h3 {
+  position: relative;
+  top: 450px;
+}
+footer {
+  position: relative;
+  margin-right: 1300px;
+  display: inline-block;
+}
+table {
+  position: relative;
+  margin: 500px;
+  text-align: center;
+}
+
+.content {
+  width: 100%;
+  position: relative;
+  top: 450px;
+  background: #ddd;
+  height: 1500px;
+}
