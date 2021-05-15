@@ -45,7 +45,7 @@
   background: #8dc63f;
   grid-column: 10/13;
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .content {
     grid-template-columns: 100%;
   }
