@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: lightsalmon;
+}
+.nav {
+  background: black;
+  display: flex;
+}
+.navigationList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navigationItems {
+  margin: 0 10px;
+}
+.navigationItems a {
+  color: aliceblue;
+  list-style: none;
+  text-decoration: none;
+}
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: lightsalmon;
+}
+.input {
+  align-items: center;
+}
+.table {
+  text-align: center;
+  margin: 0 auto;
+}
+footer {
+  background: black;
+  color: lightsalmon;
+  display: flex;
+  align-items: flex-end;
+}
+
+.h1 {
+  text-align: center;
+}
+main {
+  align-items: center;
+  margin: 0 auto;
+}
+#weight {
+  display: none;
+}
+#dumbells {
+  display: none;
+}
+.biography {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 70px 1fr;
+    grid-template-areas:
+      " nav nav nav"
+      " h1 h1 h1"
+      " biography biography main ";
+    background: lightsalmon;
+  }
+
+  .nav {
+    grid-area: nav;
+    background: black;
+  }
+  .navigationList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navigationItems {
+    margin: 0 10px;
+  }
+  .navigationItems a {
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .h1 {
+    grid-area: h1;
+    text-align: center;
+  }
+
+  .biography {
+    grid-area: biography;
+    display: block;
+  }
+
+  #weight {
+    width: 300px;
+    height: 200px;
+  }
+
+  main {
+    grid-area: main;
+    text-align: right;
+  }
+
+  .bottom {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      " input dumbells table "
+      "footer footer footer";
+    background: lightsalmon;
+  }
+
+  .input {
+    grid-area: input;
+  }
+  .table {
+    grid-area: table;
+  }
+  footer {
+    grid-area: footer;
+    background: black;
+    color: lightsalmon;
+    display: flex;
+    align-items: flex-end;
+  }
+  #dumbells {
+    display: block;
+    width: 200px;
+    height: 200px;
+    grid-area: dumbells;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .grid {
+    grid-template-columns: 1fr 500px 500px 1fr;
+    grid-template-rows: 70px 70px 1fr;
+    grid-template-areas:
+      "nav nav nav nav"
+      "h1 h1 h1 h1"
+      "biography biography main dumbells";
+    background: lightsalmon;
+    gap: 5px;
+  }
+
+  .nav {
+    grid-area: nav;
+    background: black;
+  }
+  .navigationList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navigationItems {
+    margin: 0 10px;
+  }
+  .navigationItems a {
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .h1 {
+    grid-area: h1;
+    text-align: center;
+  }
+
+  .biography {
+    display: block;
+    grid-area: biography;
+  }
+
+  #weight {
+    width: 300px;
+    height: 200px;
+  }
+
+  main {
+    grid-area: main;
+    text-align: right;
+  }
+
+  .bottom {
+    display: grid;
+    grid-template-columns: 1fr 500px 500px 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "input input table table"
+      ". footer footer .";
+    background: lightsalmon;
+  }
+
+  .input {
+    grid-area: input;
+  }
+  .table {
+    grid-area: table;
+  }
+  footer {
+    grid-area: footer;
+    background: black;
+    color: lightsalmon;
+    display: flex;
+    align-items: flex-end;
+  }
+  #dumbells {
+    grid-area: dumbells;
+    width: 200px;
+    height: 200px;
+    display: block;
+  }
+}
