@@ -1,7 +1,9 @@
 body {
   background-color: gray;
 }
-
+.td{
+  border: 1px solid black;
+}
 header {
   color: blue;
   text-align: center;
