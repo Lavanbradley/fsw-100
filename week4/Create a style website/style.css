@@ -1,93 +1,52 @@
-* {
-  padding: 0;
+*{
   margin: 0;
+  padding: 0;
+  font-family: 'Sigmar One', cursive;
 }
-body {
-  text-align: center;
-}
-.wrapper {
-  width: 1170px;
-  margin: 0 auto;
-}
-h2 {
-  position: relative;
-  top: 100px;
-  text-align: center;
-}
-h1 {
-  text-align: center;
-}
-
-img {
-  position: relative;
-  bottom: 40px;
-  width: 100px;
-  height: 100px;
-  float: left;
-}
-header {
-  height: 100px;
-  background: navy;
-  width: 100%;
-  z-index: 12;
-  position: fixed;
-}
-.draft {
-  position: relative;
-  top: 400px;
-}
-
-nav {
-  right: 10px;
-  position: fixed;
-  line-height: 100px;
-}
-p {
-  letter-spacing: 4px;
-  font-size: 20px;
-}
-nav a {
-  text-decoration: none;
-  letter-spacing: 4px;
-  font-size: 20px;
-  margin: 0 10px;
-  color: #fff;
-}
-.line {
-  position: relative;
-  top: 10px;
+img{
   width: 200px;
   height: 200px;
 }
-.draftP {
-  position: relative;
-  top: 300px;
+.nav {
+  background: black;
+  display: flex;
+  position: fixed;
 }
-.draft {
-  position: absolute;
-  float: right;
-  width: 500px;
-  height: 500px;
+.navigationList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-h3 {
-  position: relative;
-  top: 450px;
+.under{
+  text-decoration: underline;
 }
-footer {
-  position: relative;
-  margin-right: 1300px;
-  display: inline-block;
+.navigationItems {
+  margin: 0 10px;
 }
-table {
-  position: relative;
-  margin: 500px;
+.navigationItems  a {
+  color: aliceblue;
+  list-style: none;
+  text-decoration: none;
+}
+h1{
   text-align: center;
+  margin-bottom: 70px;
 }
-
-.content {
-  width: 100%;
-  position: relative;
-  top: 450px;
-  background: #ddd;
-  height: 1500px;
+table{
+  margin-left: 500px;
+  margin-top: 100px;
+}
+.woman{
+  margin-left: 300px;
+  width: 400px;
+  height: 400px;
+}
+.plansOl{
+  margin-left: 400px;
+}
+footer{
+  background: black;
 }
