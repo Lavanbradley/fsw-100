@@ -44,7 +44,7 @@ nav{
 h1{
   text-align: center;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 .container{
   display: grid;
@@ -54,7 +54,7 @@ h1{
 h4{
   grid-column: span 2;
   text-align: center;
-  color: black;
+  color: white;
 }
 .name{
   grid-column: span 2;

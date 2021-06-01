@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Pattaya", sans-serif;
+ 
   background-image: url("index.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -40,10 +40,14 @@ nav {
 .navigationItems a:hover {
   font-size: larger;
 }
+header{
+  margin-top: 50px;
+}
 h1 {
   text-align: center;
   margin: 100px;
-  color: black;
+  color: white;
+  
 }
 h3 {
   color: rgb(209, 179, 10);
@@ -116,24 +120,28 @@ th {
   text-decoration: underline;
 }
 @media only screen and (max-width: 768px) {
-  nav{
+  nav {
     position: relative;
   }
-  img{
+  img {
     display: none;
   }
-  .top , .license{
+  .top,
+  .license {
     display: none;
   }
 }
 @media only screen and (max-width: 768px) {
-  nav{
+  nav {
     position: relative;
   }
-  p{
+  p {
     width: 267px;
   }
-  .motto , .history , h1 , .inspiration{
+  .motto,
+  .history,
+  h1,
+  .inspiration {
     text-align: left;
   }
 }
